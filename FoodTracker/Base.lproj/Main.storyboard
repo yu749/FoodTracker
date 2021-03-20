@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="7Yu-vJ-xPG">
-                                <rect key="frame" x="0.0" y="64" width="414" height="100.5"/>
+                                <rect key="frame" x="0.0" y="64" width="414" height="428.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meal Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PNK-IP-nku">
                                         <rect key="frame" x="0.0" y="0.0" width="86" height="20.5"/>
@@ -37,6 +37,12 @@
                                             <action selector="setDefaultLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OWK-Lr-uDL"/>
                                         </connections>
                                     </button>
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="320" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="sEF-yd-uty">
+                                        <rect key="frame" x="0.0" y="108.5" width="320" height="320"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="sEF-yd-uty" secondAttribute="height" multiplier="1:1" id="Vry-e4-fKi"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="T2w-KT-IRj" secondAttribute="trailing" id="l8r-QI-NEW"/>
@@ -62,6 +68,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="defaultPhoto" width="283.5" height="283.5"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
