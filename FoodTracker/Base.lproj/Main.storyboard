@@ -71,11 +71,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MealViewController" customModule="FoodTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="7Yu-vJ-xPG">
-                                <rect key="frame" x="0.0" y="76" width="414" height="414"/>
+                                <rect key="frame" x="0.0" y="108" width="414" height="414"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter meal name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T2w-KT-IRj">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="34"/>
@@ -176,7 +176,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="qJu-9Z-pDK"/>
+        <segue reference="rXo-cF-tEf"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="defaultPhoto" width="283.5" height="283.5"/>
